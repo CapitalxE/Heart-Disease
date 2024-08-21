@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-loaded_model=pickle.load(open(r"C:\Users\elvin\OneDrive\Documents\Data Science\Project\Sandbox\train_model.sav",'rb'))
+loaded_model=pickle.load(open("train_model.sav",'rb'))
 
 # Create a Streamlit app
 def main():
